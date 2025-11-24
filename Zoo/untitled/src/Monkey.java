@@ -16,7 +16,7 @@ public class Monkey extends Animal {
 
     @Override
     public String feed() {
-        return getName() + " has been fed";
+        return getName() + " has been fed" + foodType();
     }
 
     @Override
